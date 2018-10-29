@@ -12,8 +12,8 @@ import java.util.concurrent.FutureTask;
 public class FutureTest {
 
     public static void main(String[] args) {
-        String directory = "";
-        String keyword = "";
+        String directory = "D:/java/jdk/jdk1.8.0_181/src";
+        String keyword = "volatile";
 
         MatchCounter counter = new MatchCounter(new File(directory), keyword);
         FutureTask<Integer> task = new FutureTask<>(counter);
