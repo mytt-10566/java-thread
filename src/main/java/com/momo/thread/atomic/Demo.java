@@ -9,6 +9,7 @@ import java.util.concurrent.atomic.LongAdder;
 public class Demo {
 
     // AtomicInteger AtomicLong AtomicIntegerArray 等
+    // 内部CAS（compare and swap）机制实现
     @Test
     public void testAtomicLong() {
         AtomicInteger atomicInteger = new AtomicInteger();
