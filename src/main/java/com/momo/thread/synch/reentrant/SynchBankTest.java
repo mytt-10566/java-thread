@@ -1,4 +1,4 @@
-package com.momo.thread.synch.lock;
+package com.momo.thread.synch.reentrant;
 
 public class SynchBankTest {
 

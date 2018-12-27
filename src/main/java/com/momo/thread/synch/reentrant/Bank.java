@@ -1,4 +1,4 @@
-package com.momo.thread.synch.lock;
+package com.momo.thread.synch.reentrant;
 
 import java.util.Arrays;
 import java.util.concurrent.locks.Lock;
@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 使用ReentrantLock
  * */
 public class Bank {
-    // 构建可以被用来保护临界区的可重入锁
+    // 构建可以被用来保护临界区的可重入锁，默认非公平锁
     private Lock bankLock = new ReentrantLock();
     private final double[] accounts;
 
