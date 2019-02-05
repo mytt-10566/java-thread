@@ -26,7 +26,8 @@ public class Demo {
     @Test
     public void testLongAdder() {
         LongAdder longAdder = new LongAdder();
-
+        longAdder.add(1);
+        System.out.println(longAdder.longValue());
     }
 
     @Test
