@@ -1,4 +1,4 @@
-package com.momo.thread.semaphore;
+package com.momo.thread.concurrentutil.semaphore;
 
 import java.util.concurrent.Semaphore;
 

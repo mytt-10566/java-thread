@@ -1,4 +1,4 @@
-package com.momo.thread.countDownLatch;
+package com.momo.thread.concurrentutil.countDownLatch;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -7,6 +7,11 @@ import java.util.concurrent.CountDownLatch;
  * @date: 2018/12/17
  */
 public class Demo {
+
+    /**
+     * CountDownLatch允许一个或多个线程等待其他线程完成操作。
+     *  类似于线程的join()方法
+     * */
 
     public static void main(String[] args) {
 //        test01();

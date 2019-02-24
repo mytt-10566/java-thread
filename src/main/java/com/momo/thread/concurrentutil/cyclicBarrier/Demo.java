@@ -1,4 +1,4 @@
-package com.momo.thread.cyclicBarrier;
+package com.momo.thread.concurrentutil.cyclicBarrier;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
@@ -8,6 +8,12 @@ import java.util.concurrent.CyclicBarrier;
  * @date: 2018/12/17
  */
 public class Demo {
+
+    /**
+     * CyclicBarrier：同步屏障
+     *  让一组线程到达一个屏障（同步点）时被阻塞，直到最后一个线程到达屏障时，屏障才会开门，所有被屏障拦截的线程才会继续运行。
+     *
+     * */
 
     public static void main(String[] args) {
 //        test1();
